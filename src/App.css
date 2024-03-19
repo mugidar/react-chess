@@ -3,8 +3,6 @@
   padding: 0;
 }
 
-
-
 .App {
   min-height: 100vh;
   width: 100vw;
@@ -29,11 +27,18 @@
   justify-content: center;
   align-items: center;
 }
-
-.white {
-
+.cell img {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 .black {
-  background-color: black;
+  background-color: rgb(56, 56, 56);
+}
+.white {
+  background-color: rgb(238, 248, 210);
 }
